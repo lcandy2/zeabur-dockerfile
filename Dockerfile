@@ -1,4 +1,4 @@
-FROM wordpress:latest
+FROM wordpress:6.7.1-php8.3-fpm-alpine
 
 # Build-time arguments
 ARG MARIADB_PASSWORD
